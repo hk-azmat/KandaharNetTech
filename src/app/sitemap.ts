@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: 'https://k-network-ten.vercel.app',
+      url: 'https://kandahar-net-tech.netlify.app/',
       lastModified: new Date(),
     },
   ]
