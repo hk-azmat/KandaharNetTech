@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://k-network-ten.vercel.app/sitemap.xml
+Sitemap:https://kandahar-net-tech.netlify.app/sitemap.xml
