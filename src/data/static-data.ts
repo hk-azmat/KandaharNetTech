@@ -613,8 +613,8 @@ export const products: Product[] = [
   },
  {
     id: 37,
-    name: "Linksys Atlas WiFi 6 Router Home WiFi Mesh System, Dual-Band, 4,000 Sq. ft Coverage, 50+ Devices, Speeds up to (AX3000) 3.0Gbps - MX2000 2-Pack",
-    slug: "linksys-atlas-wifi-6-router-home-wifi-mesh-system-dual-band-4000-Sq-ft-Coverage-50-devices-speeds-up-to-AX3000-3.0gbps-mx2000-2-pack",
+    name: "Linksys Atlas WiFi 6 Router Home WiFi Mesh System, Dual-Band, 4,000 Sq. ft Coverage, 50+ Devices, Speeds up to (AX3000) 3.0Gbps",
+    slug: "linksys-atlas-wifi-6-router-home-wifi-mesh-system-dual-band-4000-Sq-ft-Coverage-50-devices-speeds-up-to-AX3000-3.0gbps",
     description: "EXPERIENCE THE POWER OF WIFI 6: Linksys Atlas 6 mesh wifi router delivers lightning-fast gigabit WiFi speeds to your entire home for uninterrupted connectivity for incredible performance.POWERFUL MESH WIFI 6 COVERAGE: Supporting 50+ devices & up to 4,500 sq ft these mesh wireless routers provide up to 4x more WiFi capacity. An advanced Qualcomm chipset delivers an excellent mesh WiFi 6 experience for stable streaming and wire-like low latency making the Atlas 6 an excellent gaming router. EASY SETUP & CONTROL: Wireless routers set up in minutes with the free Linksys App, allowing seamless management of your WiFi mesh network system. You can view or prioritize which connected devices are using the most WiFi from anywhere. SECURITY OUT OF THE BOX: With automatic firmware updates, parental controls, and separate guest networks these WiFi mesh routers allow the entire family to surf safely. POWERED BY INTELLIGENT MESH TECHNOLOGY: Eliminate dead zones and dynamically maximize speed with Linksys WiFi mesh networks. Expand the range of your WiFi network by adding nodes to keep your connection going strong",
     price: 2650,
     categoryId: 8,
@@ -708,6 +708,7 @@ export function searchProducts(query: string): Product[] {
     p.description?.toLowerCase().includes(lowerQuery)
   );
 }
+
 
 
 
