@@ -19,15 +19,15 @@ export default function Home() {
             <div className="space-y-6">
               <Badge className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
                 <Sparkles className="h-3 w-3 mr-1" />
-                 Welcome to SkyNetix Network Store
+                 Welcome to KandaharNetTech Network Store
               </Badge>
                <Badge className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
                 <Sparkles className="h-3 w-3 mr-1" />
-                د سکای نیټیکس شبکې پلورنځي ته ښه راغلاست
+                کندهار نټ ټیک  شبکې پلورنځي ته ښه راغلاست
               </Badge>
                <Badge className="bg-gradient-to-r from-blue-500 to-purple-600 text-white">
                 <Sparkles className="h-3 w-3 mr-1" />
-               به فروشگاه شبکه اسکای نتکس خوش آمدید
+               به فروشگاه شبکه کندهار نت تک خوش آمدید
               </Badge>
               <h1 className="text-4xl md:text-6xl font-bold leading-tight">
                 Your Trusted Source for
@@ -223,5 +223,6 @@ export default function Home() {
   );
 
 }
+
 
 
