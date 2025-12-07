@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { Toaster } from "@/components/ui/sonner";
 
 export const metadata = {
-  title: "KandaharNetTech  Store ",
+  title: "KandaharNetTech Networking Equipment Store ",
   description: "Your trusted source for quality.",
   verification: {
     google: "google2b5d1c8115ebeb6a",
@@ -43,6 +43,7 @@ export default function RootLayout({
   );
 
 }
+
 
 
 
