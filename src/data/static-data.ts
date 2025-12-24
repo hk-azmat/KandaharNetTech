@@ -354,7 +354,7 @@ export const products: Product[] = [
     name: " UAP Long Range ( UAP-LR ) ",
     slug: "uap-lr",
     description: " Antennas 2 Integrated (supports 2x2 MIMO with spatial diversity) Max TX Power 27 dBm ,",
-    price: 3500,
+    price: 2800,
     categoryId: 2,
     imageUrl: "/images/ap-lr.png",
     alt: " UAP Long Range  UAP-LR ",
@@ -735,6 +735,7 @@ export function searchProducts(query: string): Product[] {
     p.description?.toLowerCase().includes(lowerQuery)
   );
 }
+
 
 
 
