@@ -335,7 +335,34 @@ export const products: Product[] = [
     featured: false,
     ageRange: null,
   },
-
+ {
+    id: 18,
+    name: " Ruijie Reyee AX1800 WiFi 6 Outdoor Access Point (RG-RAP6262(G))",
+    slug: "ruijie-reyee-ax1800-wifi-6",
+    description: " A perfect blend of Wi-Fi 6 technology and artwork  IP68 protection, rock-solid in harsh environments  Omni-directional coverage with long range Easily add extra outdoor Wi-Fi with Reyee Mesh Rack-separated mounting design, easily installation on high ",
+    price: 6000 ,
+    categoryId: 2,
+    imageUrl: "/images/wifi6.jpg",
+    alt: " Ruijie Reyee AX1800 WiFi 6 ",
+    condition:"Used - Like New", 
+    stock: 6,
+    featured: false,
+    ageRange: null,
+  },
+    {
+    id: 19,
+    name: " UAP Long Range ( UAP-LR ) ",
+    slug: "uap-lr",
+    description: " Antennas 2 Integrated (supports 2x2 MIMO with spatial diversity) Max TX Power 27 dBm ,",
+    price: 3500,
+    categoryId: 2,
+    imageUrl: "/images/ap-lr.png",
+    alt: " UAP Long Range  UAP-LR ",
+    condition:"Used - Like New", 
+    stock: 6,
+    featured: false,
+    ageRange: null,
+  },
   // Network Switches (8 products total)
   {
     id: 18,
@@ -708,6 +735,7 @@ export function searchProducts(query: string): Product[] {
     p.description?.toLowerCase().includes(lowerQuery)
   );
 }
+
 
 
 
